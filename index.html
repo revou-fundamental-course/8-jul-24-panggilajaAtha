@@ -4,51 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator BMI</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-
-    <!-- ini header web -->
-    <header>
+   <!-- Main Title -->
+    <header class="main-title">
         <h1>Kalkulator BMI</h1>
     </header>
 
-    <!-- ini article web -->
-    <article>
-        <p>Berat badan ideal adalah impian semua orang. 
-            <br>Tidak hanya memiliki bentuk tubuh yang menunjang 
-            <br>penampilan, berat badan ideal juga menentukan
-            <br>badan yang sehat. Bagaimana denganmu? 
-            <br>Yuk, hitung sekarang di kalkulator BMI</p>
-    </article>
+    <main>
+        <!-- Left Content -->
+         <section class="main-content">
+            <!-- Main Article -->
+             <article>
+                <p>Lorem Ipsum Dolor Sit Amet...</p>
+             </article>
 
-    <!-- ini form -->
-    <section>
-        <div>
-            <p>Jenis Kelamin</p>
-            <input type="radio">
-            <label for="input-laki-laki">Laki-Laki</label>
-            <input type="radio">
-            <label for="input-perempuan">Perempuan</label>
-        </div>
-        <div>
-            <p>Berat Badan (kg)</p>
-            <input type="number">
-        </div>
-        <div>
-            <p>Usia (tahun)</p>
-            <input type="number">
-        </div>
-        <div>
-            <p>Tinggi Badan (cm)</p>
-            <input type="number">
-        </div>
-        <button>Hitung BMI</button>
-        <button>Reset</button>
-    </section>
+             <!-- Form -->
+              <section>
+                <form>
+                    <div>
+                        <div class="input-title">Jenis Kelamin</div>
+                        <input type="radio" id="selection-man"><label for="selection-man">Laki-laki</label>
+                        <input type="radio" id="selction-woman"><label for="selection-woman">Perempuan</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="input-berat-badan">Berat Badan (kg)</label>
+                        <br>
+                        <input type="number" id="input-berat-badan" style="height: 15px;">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="inpt-usia">Usia (th)</label>
+                        <br>
+                        <input type="number" id="input-usia" style="height: 15px;">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="input-tinggi-badan">Tinggi Badan (cm)</label>
+                        <br>
+                        <input type="number" id="input-tinggi-badan" style="height: 15px;">
+                    </div>
+                </form>
+            </section>
+
+            <!-- Form Article -->
+             <section>
+                <header>
+                    <h2>Keunggulan Fitur</h2>
+                </header>
+
+                <article>
+                    <p>Lorem Ipsum Dolor sit Amet...</p>
+                </article>
+             </section>
+         </section>
+
+         <!-- Right Content -->
+          <section class="main-content">
+                <!-- Result Article -->
+                 <article>
+                    <header>
+                        <h1>Result</h1>
+                    </header>
+
+                    <!-- Result Section -->
+                     <section class="result-section">
+                        <p>Hasil result adalah:</p>
+
+                        <h2>24.7</h2>
+
+                        <p>Anda memiliki berat badan berlebih</p>
+                     </section>
+
+                    <!-- Result Article -->
+                    <article></article>
+
+                    <!-- General Information -->
+                    <section></section>
+                 </article>
+          </section>
     </main>
 
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
